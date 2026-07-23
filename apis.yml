@@ -1,9 +1,25 @@
 aid: azos
 name: Azos
-description: 'Azos is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Azos is a Brazilian insurtech (founded 2021) that sells fully digital life insurance
+  directly to consumers and through a broker (corretor) channel. Its products include life insurance,
+  serious-illness coverage, accidental-disability coverage, and funeral assistance, all contracted
+  online in minutes with no medical exam, transparent pricing from around R$5/month, and coverage up
+  to R$1 million. The company positions itself as "seguro de vida sem burocracia" (life insurance
+  without bureaucracy) and is backed by Prosus Ventures. Azos runs a consumer app and a broker portal
+  but publishes no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/azos/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://storage.googleapis.com/webflow-files/azos-thumb-link.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Insurance
+- Insurtech
+- Life Insurance
+- Brazil
+- Financial Services
+- Digital Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://azos.com.br
+- type: PrivacyPolicy
+  url: https://www.azos.com.br/politica-de-privacidade
+- type: TermsOfService
+  url: https://www.azos.com.br/termos-de-uso
+- type: Support
+  url: https://www.azos.com.br/perguntas-frequentes
+- type: Blog
+  url: https://www.azos.com.br/vida-segura
+- type: DomainSecurity
+  url: security/azos-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
