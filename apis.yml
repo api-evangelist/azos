@@ -8,6 +8,17 @@ description: 'Azos is a Brazilian insurtech (founded 2021) that sells fully digi
   without bureaucracy) and is backed by Prosus Ventures. Azos runs a consumer app and a broker portal
   but publishes no public developer API surface at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/azos/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
